@@ -1,0 +1,195 @@
+
+----------------------------
+           JANDROID
+----------------------------
+
+INFO     Creating template object.
+INFO     1 potential template(s) found.
+INFO     Initiating Android analysis.
+INFO     Performing basic checks. Please wait.
+INFO     Basic checks complete.
+INFO     Beginning analysis...
+INFO     Analysing KLMSAgent.apk in worker thread 0.
+INFO     Analysing BookmarkProvider.apk in worker thread 1.
+INFO     Analysing LiveStickers.apk in worker thread 2.
+INFO     Analysing SamsungMultiConnectivity_mcf.apk in worker thread 6.
+INFO     Analysing CMHProvider.apk in worker thread 5.
+INFO     Analysing StoryService.apk in worker thread 4.
+INFO     Analysing SamsungPositioning.apk in worker thread 7.
+INFO     Analysing SamsungCamera.apk in worker thread 9.
+INFO     Analysing LocalTransport.apk in worker thread 3.
+INFO     Analysing ANTRadioService.apk in worker thread 8.
+WARNING  Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+WARNING  Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+WARNING  Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+WARNING  Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+WARNING  Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+WARNING  Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+INFO     End of creating cross references (XREF)
+INFO     run time: 0min 00s
+INFO     manifest analyse satisfied: False, current links: 
+INFO     {}
+INFO     Searching for calls to method: "Landroid/content/Context;->startActivity".
+INFO     after code search current_links :
+INFO     {}
+INFO     before code trace analyse current links: 
+INFO     {}
+ERROR    Either TraceFrom or TraceTo evaluated to None.
+INFO     code trace analyse satisfied: False, current links: 
+WARNING  Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+WARNING  Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+INFO     End of creating cross references (XREF)
+INFO     run time: 0min 00s
+INFO     manifest analyse satisfied: False, current links: 
+INFO     {}
+INFO     Searching for calls to method: "Landroid/content/Context;->startActivity".
+INFO     Analysing MotionPhotoViewer.apk in worker thread 1.
+INFO     after code search current_links :
+INFO     {}
+INFO     before code trace analyse current links: 
+INFO     {}
+ERROR    Either TraceFrom or TraceTo evaluated to None.
+INFO     code trace analyse satisfied: False, current links: 
+WARNING  Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+INFO     Analysing PhoneNumberLocatorService.apk in worker thread 3.
+WARNING  Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+WARNING  Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+WARNING  Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+INFO     End of creating cross references (XREF)
+INFO     run time: 0min 00s
+INFO     manifest analyse satisfied: False, current links: 
+INFO     {}
+INFO     Searching for calls to method: "Landroid/content/Context;->startActivity".
+INFO     cn La/b/a/e/b; mn a dn for return_candidate (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V La/b/a/e/b;->a(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V [access_flags=private] @ 0x19b2c
+INFO     cn La/b/a/e/c; mn b dn for return_candidate (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V La/b/a/e/c;->b(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V [access_flags=private] @ 0x1a6b4
+INFO     info rrrr, True
+INFO     [<androguard.core.bytecodes.dvm.EncodedMethod object at 0x7f1243e61e90>, <androguard.core.bytecodes.dvm.EncodedMethod object at 0x7f1243e68110>]
+INFO     after code search current_links :
+INFO     {'@ccc_wei': ['La/b/a/e/b;', 'La/b/a/e/c;']}
+INFO     before code trace analyse current links: 
+INFO     {'@ccc_wei': ['La/b/a/e/b;', 'La/b/a/e/c;']}
+ERROR    Either TraceFrom or TraceTo evaluated to None.
+INFO     code trace analyse satisfied: False, current links: 
+INFO     Analysing knoxanalyticsagent.apk in worker thread 0.
+WARNING  Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+INFO     End of creating cross references (XREF)
+INFO     run time: 0min 00s
+INFO     manifest analyse satisfied: False, current links: 
+INFO     {}
+INFO     Searching for calls to method: "Landroid/content/Context;->startActivity".
+INFO     after code search current_links :
+INFO     {}
+INFO     before code trace analyse current links: 
+INFO     {}
+ERROR    Either TraceFrom or TraceTo evaluated to None.
+INFO     code trace analyse satisfied: False, current links: 
+INFO     Analysing WallpaperCropper.apk in worker thread 8.
+WARNING  Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+INFO     End of creating cross references (XREF)
+INFO     run time: 0min 00s
+INFO     manifest analyse satisfied: False, current links: 
+INFO     {}
+INFO     Searching for calls to method: "Landroid/content/Context;->startActivity".
+INFO     after code search current_links :
+INFO     {}
+INFO     before code trace analyse current links: 
+INFO     {}
+ERROR    Either TraceFrom or TraceTo evaluated to None.
+INFO     code trace analyse satisfied: False, current links: 
+INFO     Analysing SendHelpMessage.apk in worker thread 8.
+WARNING  Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+INFO     End of creating cross references (XREF)
+INFO     run time: 0min 00s
+INFO     manifest analyse satisfied: False, current links: 
+INFO     {}
+INFO     Searching for calls to method: "Landroid/content/Context;->startActivity".
+INFO     cn Ltmsdkobf/de; mn f dn for return_candidate (Landroid/content/Context;)Z Ltmsdkobf/de;->f(Landroid/content/Context;)Z [access_flags=public] @ 0x58214
+INFO     cn Ltmsdkobf/hp; mn l dn for return_candidate (Landroid/content/Context;)V Ltmsdkobf/hp;->l(Landroid/content/Context;)V [access_flags=public static] @ 0x6d5bc
+INFO     info rrrr, True
+INFO     [<androguard.core.bytecodes.dvm.EncodedMethod object at 0x7f1242a9eed0>, <androguard.core.bytecodes.dvm.EncodedMethod object at 0x7f1242a27b50>]
+INFO     after code search current_links :
+INFO     {'@ccc_wei': ['Ltmsdkobf/de;', 'Ltmsdkobf/hp;']}
+INFO     before code trace analyse current links: 
+INFO     {'@ccc_wei': ['Ltmsdkobf/de;', 'Ltmsdkobf/hp;']}
+ERROR    Either TraceFrom or TraceTo evaluated to None.
+INFO     code trace analyse satisfied: False, current links: 
+INFO     Analysing GoogleExtServicesPrebuilt.apk in worker thread 3.
+WARNING  Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+INFO     End of creating cross references (XREF)
+INFO     run time: 0min 00s
+INFO     manifest analyse satisfied: False, current links: 
+INFO     {}
+INFO     Searching for calls to method: "Landroid/content/Context;->startActivity".
+INFO     after code search current_links :
+INFO     {}
+INFO     before code trace analyse current links: 
+INFO     {}
+ERROR    Either TraceFrom or TraceTo evaluated to None.
+INFO     code trace analyse satisfied: False, current links: 
+INFO     End of creating cross references (XREF)
+INFO     run time: 0min 00s
+INFO     manifest analyse satisfied: False, current links: 
+INFO     {}
+INFO     Searching for calls to method: "Landroid/content/Context;->startActivity".
+INFO     cn Landroidx/core/app/TaskStackBuilder; mn startActivities dn for return_candidate (Landroid/os/Bundle;)V Landroidx/core/app/TaskStackBuilder;->startActivities(Landroid/os/Bundle;)V [access_flags=public] @ 0x1b8b8
+INFO     cn Lcom/sec/android/app/safetyassurance/SafetyAssuranceApp; mn ifForegroundActivityIsSASettingThenDontStartItAgain dn for return_candidate (Landroid/content/Context;)V Lcom/sec/android/app/safetyassurance/SafetyAssuranceApp;->ifForegroundActivityIsSASettingThenDontStartItAgain(Landroid/content/Context;)V [access_flags=public static] @ 0x32418
+INFO     cn Lcom/sec/android/app/safetyassurance/emergencyreporthelper/EmergencyReportStartMonitorReceiver; mn onPackageRemovedIntent dn for return_candidate (Landroid/content/Context;Landroid/content/Intent;)V Lcom/sec/android/app/safetyassurance/emergencyreporthelper/EmergencyReportStartMonitorReceiver;->onPackageRemovedIntent(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=private] @ 0x447d8
+INFO     cn Lcom/sec/android/app/safetyassurance/emergencyreporthelper/EmergencyReportStartMonitorReceiver; mn startReportApplication dn for return_candidate (ILjava/lang/String;)V Lcom/sec/android/app/safetyassurance/emergencyreporthelper/EmergencyReportStartMonitorReceiver;->startReportApplication(I Ljava/lang/String;)V [access_flags=private] @ 0x44bb4
+INFO     info rrrr, True
+INFO     [<androguard.core.bytecodes.dvm.EncodedMethod object at 0x7f1243cb4d10>, <androguard.core.bytecodes.dvm.EncodedMethod object at 0x7f1243b3c0d0>, <androguard.core.bytecodes.dvm.EncodedMethod object at 0x7f1243a5e090>, <androguard.core.bytecodes.dvm.EncodedMethod object at 0x7f1243a5e050>]
+INFO     after code search current_links :
+INFO     {'@ccc_wei': ['Landroidx/core/app/TaskStackBuilder;', 'Lcom/sec/android/app/safetyassurance/SafetyAssuranceApp;', 'Lcom/sec/android/app/safetyassurance/emergencyreporthelper/EmergencyReportStartMonitorReceiver;']}
+INFO     before code trace analyse current links: 
+INFO     {'@ccc_wei': ['Landroidx/core/app/TaskStackBuilder;', 'Lcom/sec/android/app/safetyassurance/SafetyAssuranceApp;', 'Lcom/sec/android/app/safetyassurance/emergencyreporthelper/EmergencyReportStartMonitorReceiver;']}
+ERROR    Either TraceFrom or TraceTo evaluated to None.
+INFO     code trace analyse satisfied: False, current links: 
+INFO     End of creating cross references (XREF)
+INFO     run time: 0min 00s
+INFO     manifest analyse satisfied: False, current links: 
+INFO     {}
+INFO     Searching for calls to method: "Landroid/content/Context;->startActivity".
+INFO     after code search current_links :
+INFO     {}
+INFO     before code trace analyse current links: 
+INFO     {}
+ERROR    Either TraceFrom or TraceTo evaluated to None.
+INFO     code trace analyse satisfied: False, current links: 
+INFO     Analysing SystemUpdate.apk in worker thread 8.
+INFO     Analysing MdxKitService.apk in worker thread 3.
+WARNING  Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+WARNING  Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+INFO     Analysing SecFactoryPhoneTest.apk in worker thread 4.
+WARNING  Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+INFO     End of creating cross references (XREF)
+INFO     run time: 0min 00s
+INFO     manifest analyse satisfied: False, current links: 
+INFO     {}
+INFO     Searching for calls to method: "Landroid/content/Context;->startActivity".
+INFO     after code search current_links :
+INFO     {}
+INFO     before code trace analyse current links: 
+INFO     {}
+ERROR    Either TraceFrom or TraceTo evaluated to None.
+INFO     code trace analyse satisfied: False, current links: 
+INFO     Analysing SetupWizardLegalProvider.apk in worker thread 4.
+INFO     End of creating cross references (XREF)
+INFO     run time: 0min 01s
+INFO     manifest analyse satisfied: False, current links: 
+INFO     {}
+INFO     Searching for calls to method: "Landroid/content/Context;->startActivity".
+INFO     cn Landroidx/appcompat/widget/SearchView; mn a dn for return_candidate (Landroid/content/Intent;)V Landroidx/appcompat/widget/SearchView;->a(Landroid/content/Intent;)V [access_flags=public final] @ 0x6fb28
+INFO     cn Lb/b/o/j/j; mn g dn for return_candidate ()Z Lb/b/o/j/j;->g()Z [access_flags=public] @ 0x589e0
+INFO     cn Landroidx/appcompat/widget/SearchView; mn m dn for return_candidate ()V Landroidx/appcompat/widget/SearchView;->m()V [access_flags=public] @ 0x70034
+INFO     cn Landroidx/appcompat/widget/SearchView; mn a dn for return_candidate (ILjava/lang/String;Ljava/lang/String;)V Landroidx/appcompat/widget/SearchView;->a(I Ljava/lang/String; Ljava/lang/String;)V [access_flags=public] @ 0x6fb90
+INFO     cn Lb/e/d/g; mn a dn for return_candidate (Landroid/os/Bundle;)V Lb/e/d/g;->a(Landroid/os/Bundle;)V [access_flags=public] @ 0x7bad8
+INFO     cn Lc/a/a/a/i/a; mn a dn for return_candidate (Landroid/content/Context;Landroid/content/Intent;)V Lc/a/a/a/i/a;->a(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0xaae24
+INFO     info rrrr, True
+INFO     [<androguard.core.bytecodes.dvm.EncodedMethod object at 0x7f1231e6bd90>, <androguard.core.bytecodes.dvm.EncodedMethod object at 0x7f1231e3b650>, <androguard.core.bytecodes.dvm.EncodedMethod object at 0x7f1231e72610>, <androguard.core.bytecodes.dvm.EncodedMethod object at 0x7f1231e6bc10>, <androguard.core.bytecodes.dvm.EncodedMethod object at 0x7f1232146d50>, <androguard.core.bytecodes.dvm.EncodedMethod object at 0x7f1232057d10>]
+INFO     after code search current_links :
+INFO     {'@ccc_wei': ['Landroidx/appcompat/widget/SearchView;', 'Lb/b/o/j/j;', 'Lb/e/d/g;', 'Lc/a/a/a/i/a;']}
+INFO     before code trace analyse current links: 
+INFO     {'@ccc_wei': ['Landroidx/appcompat/widget/SearchView;', 'Lb/b/o/j/j;', 'Lb/e/d/g;', 'Lc/a/a/a/i/a;']}
+ERROR    Either TraceFrom or TraceTo evaluated to None.
+INFO     code trace analyse satisfied: False, current links: 
+INFO     Analysing Firewall.apk in worker thread 6.
+WARNING  Requested API level 29 is larger than maximum we have, returning API level 28 instead.

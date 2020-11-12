@@ -1,0 +1,42 @@
+{
+    "METADATA": {
+        "NAME": "BrowsableStartActivity"
+    },    
+    "MANIFESTPARAMS": {
+        "BASEPATH": "manifest->application->activity OR manifest->application->activity-alias",
+        "SEARCHPATH": {
+            "intent-filter": {
+                "action": {
+                    "LOOKFOR": {
+                        "TAGVALUEMATCH": "<NAMESPACE>:name=android.intent.action.VIEW"
+                    }
+                },
+                "category": {
+                    "LOOKFOR": {
+                        "TAGVALUEMATCH": "<NAMESPACE>:name=android.intent.category.BROWSABLE"
+                    }
+                },
+                "data": {
+                    "RETURN": ["<NAMESPACE>:host AS @host", "<NAMESPACE>:scheme AS @scheme"]
+                }                
+            }
+        },
+        "RETURN": ["<smali>:<NAMESPACE>:name AS @bactivity_name"]
+    },
+    "CODEPARAMS": {
+        "SEARCH": {
+            "SEARCHFORCALLTOMETHOD": {
+                "METHOD": "Landroid/content/Context;->startActivity",
+                "RETURN": "<class> AS @ccc_wei"
+            }
+        },
+        "TRACE": {
+            "TRACEFROM": "<class>:@ccc_wei[]",
+            "TRACETO": "<class>:@bactivity_name",
+            "TRACELENGTHMAX": 30,
+            "TRACEDIRECTION": "FORWARD",
+            "RETURN": "<tracepath> AS @tracepath_browsablestartactiviry"
+        }
+    },
+    "GRAPH": "@tracepath_browsablestartactiviry WITH <method>:<desc>:<class> AS attribute=nodename"
+}

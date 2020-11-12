@@ -1,0 +1,22 @@
+base_info = {_id:task_id,model:model,version:version,release:release,machine:machine,token:token
+            ,has_task:true/false,has_done:true/false,begin_date:datetime,end_date:datetime,boot_id:boot_file_id}
+
+
+#crypto & auth
+sessions_info = {_id:token,key_index:key_index(string)}//for info upload
+cookie_info ={_id:cookie,upload_path:upload_path}//for file upload
+
+#upload
+upload_info = {_id:task_id,size:size,md5:md5}
+upload_task_info = {task_id:task_id,upload_offset:count,upload_done:true/false}
+
+
+#output :
+client_db
+client_info = {"model": model, "release": release, "version": version, "machine": machine, "file_id": _id,"file_name":task_id}
+
+task_id is str
+upload_id is str
+token is str
+cookie is str
+all int length is 24 and digit
